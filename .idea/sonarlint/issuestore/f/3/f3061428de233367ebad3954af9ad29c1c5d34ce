@@ -1,0 +1,16 @@
+
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(ÒÖÎ8ü“›Ê.
+Z	java:S106M"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8İÁÒœÊ.
+‹
+java:S4165?"iRemove this useless assignment; "jsonObjects" already holds the assigned value along all execution paths.(˜üâûÿÿÿÿ8Â—ñŸÊ.
+i
+java:S1192:"MDefine a constant instead of duplicating this literal "computerDate" 3 times.(Â†Â^8äõ•ŸÊ.
+U	java:S106G"9Replace this use of System.out or System.err by a logger.(©¨Ôõ8¿Ó® Ê.
+F
+java:S5413Y")Verify that "remove()" is used correctly.(·şùë8‹¨¤ Ê.
+F
+java:S5413Y")Verify that "remove()" is used correctly.(·şùë8‹¨¤ Ê.
+f
+java:S1128"IRemove this unused import 'org.omg.PortableInterceptor.SYSTEM_EXCEPTION'.(öØÁ8’ÙóŸÊ.
+U	java:S106;"9Replace this use of System.out or System.err by a logger.(ı÷ì8ù†“ŸÊ.
+U	java:S106D"9Replace this use of System.out or System.err by a logger.(·ŠÌŸ8õ‚« Ê.
