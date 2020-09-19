@@ -13,6 +13,7 @@ public class Persistence {
     public Persistence(){
         try {
             jedis = new Jedis(getEnvironment());
+            jedis.auth("prueba123");
             System.out.println("Me conecté " + jedis.ping());
         } catch (Exception e){
             System.out.println(e.getMessage());
