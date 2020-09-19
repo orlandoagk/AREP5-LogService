@@ -7,10 +7,10 @@ import static spark.Spark.*;
 
 public class Main {
     public static void main(String[] args) {
-
+        Persistence persistence = new Persistence();
         port(getPort());
         get("/",(req,res)->{
-            Persistence persistence = new Persistence();
+
             persistence.putMessage(req.queryParams("message"));
             return persistence.getMessages(10);
         });

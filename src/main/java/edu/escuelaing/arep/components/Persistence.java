@@ -11,8 +11,12 @@ public class Persistence {
     private Jedis jedis;
 
     public Persistence(){
-        jedis = new Jedis(getEnvironment());
-        System.out.println("Me conecté "+jedis.ping());
+        try {
+            jedis = new Jedis(getEnvironment());
+            System.out.println("Me conecté " + jedis.ping());
+        } catch (Exception e){
+            System.out.println(e.getMessage());
+        }
     }
 
     /**
