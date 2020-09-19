@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d8efeb3-a9cc-4c85-9757-75d06bc1165e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/AREP5-LogService/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AREP5-LogService/README.md" beforeDir="false" />
-    </list>
+    <list default="true" id="5d8efeb3-a9cc-4c85-9757-75d06bc1165e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +28,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Orlando\Documents\LogServiceArep" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -64,7 +66,7 @@
       <updated>1600454262305</updated>
       <workItem from="1600454268379" duration="2375000" />
       <workItem from="1600470966689" duration="11759000" />
-      <workItem from="1600552889418" duration="1501000" />
+      <workItem from="1600552889418" duration="3712000" />
     </task>
     <servers />
   </component>

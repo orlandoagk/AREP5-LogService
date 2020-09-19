@@ -12,6 +12,7 @@ public class Persistence {
 
     public Persistence(){
         jedis = new Jedis(getEnvironment());
+        System.out.println("Me conecté "+jedis.ping());
     }
 
     /**
@@ -20,6 +21,7 @@ public class Persistence {
      */
     public String getEnvironment(){
         if(System.getenv("Environment")!=null){
+            System.out.println(System.getenv("Environment"));
             return System.getenv("Environment");
         }
         return "18.212.123.33";
