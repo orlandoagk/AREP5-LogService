@@ -9,8 +9,10 @@ public class Main {
     public static void main(String[] args) {
         Persistence persistence = new Persistence();
         port(getPort());
-        get("/",(req,res)->{
-
+        get("/getMessages",(req,res)->{
+            return persistence.getMessages(10);
+        });
+        post("/putMessage",(req,res)->{
             persistence.putMessage(req.queryParams("message"));
             return persistence.getMessages(10);
         });
