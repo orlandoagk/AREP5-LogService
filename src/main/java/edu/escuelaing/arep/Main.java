@@ -1,6 +1,7 @@
 package edu.escuelaing.arep;
 
 import edu.escuelaing.arep.components.Persistence;
+import org.json.JSONObject;
 
 
 import static spark.Spark.*;
@@ -13,7 +14,8 @@ public class Main {
             return persistence.getMessages(10);
         });
         post("/putMessage",(req,res)->{
-            persistence.putMessage(req.queryParams("message"));
+            JSONObject body = new JSONObject(req.body());
+            persistence.putMessage(body.get("message").toString());
             return persistence.getMessages(10);
         });
     }
